@@ -25,7 +25,6 @@ const ImageButton = styled(ButtonBase)(({ theme }) => ({
   '& .widgetName': {
     color: theme.palette.common.black,
     position: 'relative',
-    padding: '4rem 5rem',
     marginRight: '1rem',
        '&:hover': {
           opacity: 0,
