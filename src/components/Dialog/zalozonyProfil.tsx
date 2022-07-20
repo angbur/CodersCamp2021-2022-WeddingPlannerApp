@@ -1,8 +1,8 @@
 import { Typography, Button, Box } from "@mui/material";
 import { closeDialog } from "../../store/dialogSlice";
 import { useNavigate } from "react-router-dom";
-import { toast } from 'react-toastify';
 import { useAppDispatch } from "store/hooks";
+import { toast } from 'react-toastify';
 
 export const ZalozonyProfil = () => {
   const dispatch = useAppDispatch();

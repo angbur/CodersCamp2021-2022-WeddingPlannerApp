@@ -44,7 +44,7 @@ export const RejestracjaEmail = () => {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>): void => {
     event.preventDefault();
-    dispatch(fetchRegistrationData(data));
+    //dispatch(fetchRegistrationData(data));
   };
 
   useEffect(()=> {

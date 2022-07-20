@@ -43,7 +43,10 @@ export const LoginDialog = () => {
   
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
-      dispatch(fetchLoginData(data));       
+      //dispatch(fetchLoginData(data)); 
+        dispatch(login({ user: data.email }));
+        dispatch(openDialog({formType:FormType.zalogowano}));
+        navigate(`/WeddingCouple`)    
     }; 
 
     useEffect(()=> {
